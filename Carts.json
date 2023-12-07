@@ -1,0 +1,11 @@
+[
+  "api/v1/carts",
+  "api/v1/carts/:id",
+  "api/v1/carts/:id/products",
+  "api/v1/carts/:id/products/:id_prod",
+  {
+  "id": 1,
+  "products": [
+   
+  ]
+}]
