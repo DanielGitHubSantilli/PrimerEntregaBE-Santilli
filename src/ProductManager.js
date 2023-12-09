@@ -7,15 +7,14 @@ export class ProductManager {
     this.products = [];
   }
   //static correlativoId = 0;
-  async addProduct(title, description, price, thumbnail, code, stock) {
+  async addProduct(title, description, price, img, code, stock) {
     //id: this.products.length +1,
 
     if (
-      title == undefined ||
+      id == undefined ||
       description == undefined ||
       price == undefined ||
-      thumbnail == undefined ||
-      code == undefined ||
+      img == undefined ||
       stock == undefined
     ) {
       throw new Error("Todos los campos son obligatorios");
@@ -38,7 +37,7 @@ export class ProductManager {
         title,
         description,
         price,
-        thumbnail,
+        img,
         code,
         stock,
       };
